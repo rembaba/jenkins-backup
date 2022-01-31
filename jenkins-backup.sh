@@ -88,11 +88,11 @@ function main() {
   fi
 
   cd "${TMP_DIR}"
-  tar -czvf "${TMP_TAR_NAME}" "${ARC_NAME}/"*
+  #tar -czvf "${TMP_TAR_NAME}" "${ARC_NAME}/"*
   cd -
   mv -f "${TMP_TAR_NAME}" "${DEST_FILE}"
 
-  cleanup
+  #cleanup
 
   exit 0
 }
