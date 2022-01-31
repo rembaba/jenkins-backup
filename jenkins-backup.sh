@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/bin/bash
 #
 # jenkins backup scripts
 # https://github.com/rembaba/jenkins-backup
